@@ -1,0 +1,199 @@
+/* ==============UNIVERSAL STYLES========= */
+html{
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body {
+  margin: 0;
+}
+
+
+.button{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#image1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+
+#image2{
+  position: absolute;
+  top: 375px;
+  right: 570px;
+  z-index: 3;
+}
+
+#image2:hover{
+  opacity: 40%;
+}
+
+.button{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#image1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+
+#image2{
+  position: absolute;
+  top: 375px;
+  right: 570px;
+  z-index: 3;
+}
+
+.stack{
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+#background{
+  position: absolute;
+  top: 0;
+  left: 0;
+ width: 1300px;
+ height: 1400px;
+ 
+}
+
+#desktop{
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+
+#gif{
+  position: absolute;
+ margin-top: 10px;
+ margin-left: 750px;
+} 
+
+#ok{
+  position: absolute;
+  margin-top: 620px;
+  margin-left: 245px;
+}
+
+#ok:hover{
+transform: scale(1.5);
+animation-name: fall;
+animation-duration: 200ms;
+animation-timing-function: cubic-bezier(0.165, 0.44, 0.64, 1);
+animation-iteration-count: infinite;
+}
+
+@keyframes fall{
+
+0% {
+transform: rotateY(-25deg);
+}
+25% {
+transform: translateY(2%) rotateY(25deg);
+}
+50% {
+transform: rotateY(-25deg);
+}
+75% {
+transform: translateY(4%) rotateY(25deg);
+}
+100% {
+transform: rotateY(-25deg);
+}
+}
+
+
+
+
+
+
+.button:active {
+  transform: translateY(4px);
+}
+
+.audio{
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+h1{
+  position: absolute;
+  font-family: bubblegum-pop-highlight, sans-serif;
+  font-weight: 400;
+  font-size: 120px;
+  font-style: normal;
+  margin-left: 500px;
+  margin-top: 250px;
+  z-index: 3;
+}
+
+.polly{
+    position: absolute;
+    animation-name: flip; 
+    animation-duration: 5s;
+    animation-iteration-count: 5s;
+    animation-fill-mode: forwards;
+  
+   }
+   
+   @keyframes flip{
+
+           10% {
+             transform: rotateX(2turn);
+           }
+           20% {
+             transform: rotateX(3turn);
+           }
+           40% {
+             transform: rotateX(4turn);
+           }
+           70%, 100% {
+             transform: rotateX(5turn);
+           }
+         }
+/*/*
+#back{
+    position: absolute;
+    animation-name: fall;
+    animation-duration: 200ms;
+    animation-timing-function: cubic-bezier(7, 8, 9, 10);
+    animation-iteration-count:infinite;
+}
+
+@keyframes fall{
+
+0% {
+    transform: rotateY(-25deg);
+  }
+  25% {
+    transform: translateY(2%) rotateY(25deg);
+  }
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============
